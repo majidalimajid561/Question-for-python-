@@ -1,7 +1,7 @@
 # Question-for-python-
  
-#password matching....
-
+## Password Matching Program
+```python
 password=input("Enter password")
 email=input("Enter mail")
 
@@ -9,9 +9,10 @@ if password=="1234"and email=="majid9911@gmail.com":
     print("Welcome")
 else:
     print("Invalid password")
+```
 
-# find max 
-
+## Find Maximum Program
+```python
 a =int(input("enter number"))
 b =int(input("enter number"))
 c =int(input("enter number"))
@@ -28,10 +29,11 @@ else:
     else:
         max=c  
 print(max)  
+```
 
-#find sum of this 
+## Sum of Series Program
+```python
 # 1+1/1!+2/2!+3/3!...
-
 res=0
 f=1       
 for i in range(1,2):
@@ -43,57 +45,53 @@ for i in range(1,6):
     for j in range(1,6):
         print('*',end="")
     print()
+```
 
- 
+## Number Pyramid Program
+```python
 #1
 #1 2 1
 #1 2 3 2 1
 #1 2 3 4 3 2 1
-
 for i in range(1,6):
     for j in range(1,i+1):
         print(j, end=' ')
     for k in range(i-1,0,-1):
         print(k,end=' ')
     print()
+```
 
-# prime numebrs 
-
+## Prime Numbers
+```python
 for i in range(10,100):
     for j in range(2,i):
         if i%j==0:
             break
     else:
         print(i)
+```
 
-
-
-# coutn charecter 
-
-
+## Count Character
+```python
 s = 'Majid'
 fre=0
 for i in s:
     if i=='i': fre=fre+1
 print(fre)
+```
 
-
-
-#Vowel or constant
-
-
-
+## Vowel or Constant
+```python
 s ="aeiou"
 for i in s:
     if i=='e' or i=='i'or i=='a'or i=='o'or i=='u':
         print(i,"is vowel")
     else:
         print(i,'not a vowel')
+```
 
-#fibonaci
-
-
-
+## Fibonacci Series
+```python
 pre=0
 curr=1
 print(0,1,end=" ")
@@ -103,41 +101,44 @@ for i in range(3,10):
     print(res,end=" ")
     pre=curr
     curr=res
-    
- # bill calculation
+```
+
+## Bill Calculation
+```python
 units = int(input("enter consumed units"))
 p_perUnit=int(input("Enter prince of one units"))
+```
 
-
-
- #list sum 
-
+## List Sum
+```python
 list =[1,2,3,4,5,6]
 sum=0
 
 for i in list:
     sum+=i
 print(sum)
+```
 
-# leap year
-
+## Leap Year
+```python
 year = int(input("enter year "))
 if (year%4 and year%100!=0) or year%400 :
     print(year," is leap year")
 else:
     print("Not a leap year")
+```
 
+## Basic Programs to Understand Functions
 
-    Basic programs to understanding  function
-
-    # print thie given list 
-
+### Print a Given List
+```python
 def sum(list):
     for i in list:
         print(i)
+```
 
-# reverse this give list by using two pointer
-
+### Reverse a List Using Two Pointers
+```python
 def reverse(list):
     j = len(list)-1
     i=0
@@ -149,9 +150,10 @@ def reverse(list):
        j-=1
     for i in list:
         print(i, end=" ")
+```
 
-
-
+### Reverse a String
+```python
 def reversStr(s):
     j=len(s)-1
     ans=""
@@ -159,9 +161,10 @@ def reversStr(s):
         ans+=s[j]
         j-=1
     return ans
+```
 
-# function to check prime number  
-  
+### Check Prime Number
+```python
 def isprime (n):
  if type(n)==int:
     if i<=1 :
@@ -174,9 +177,10 @@ def isprime (n):
     return True
  else:
      return "not a number "
-     
-# count wovles in string for small 
+```
 
+### Count Vowels in String
+```python
 def countWovwl(s):
     if type(s)==str:
         fre=0
@@ -186,8 +190,10 @@ def countWovwl(s):
         print("wovel Numbers are ",fre)        
     else:
         print("invalid input")            
+```
 
-# given String palindrom
+### Check if Given String is Palindrome
+```python
 def isPalindrom(s):
     j = len(s)-1
     i = 0
@@ -197,8 +203,10 @@ def isPalindrom(s):
        j-=1
        i+=1
     return True
+```
 
-#reverse a number
+### Reverse a Number
+```python
 def reverNum(n):
     if type(n)==int:
         rev=0
@@ -210,9 +218,10 @@ def reverNum(n):
         return rev
     else:
         print("invalid input")
- 
+```
 
- # sum of digit 
+### Sum of Digits
+```python
 def sumofNum(num):
     if(type(num)==int):
         sum =0
@@ -223,9 +232,10 @@ def sumofNum(num):
         return sum
     else:
         print("Invalid input")
+```
 
-# returrn max from list 
-
+### Return Max From List
+```python
 def  maxInList(list):
     if len(list)==0: 
         return -1
@@ -235,12 +245,14 @@ def  maxInList(list):
         if i>max:
             max=i
     return max
+```
 
- # factorial function
+### Factorial Function
+```python
 def fact(n):
     f=1
     while n>=1:
         f=f*n
         n-=1
     return f
-
+```
