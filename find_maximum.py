@@ -1,1 +1,1 @@
-a =int(input("enter number"))\nb =int(input("enter number"))\nc =int(input("enter number"))\nmax=a\nif a>b:\n    if a>c:\n        max=a\n    else:\n        if c>b:\n            max=c\nelse:\n    if b>c:\n        max=b\n    else:\n        max=c  \nprint(max)
+a =int(input("enter_number"))\nb =int(input("enter number"))\nc =int(input("enter number"))\nmax=a\nif a>b:\n    if a>c:\n        max=a\n    else:\n        if c>b:\n            max=c\nelse:\n    if b>c:\n        max=b\n    else:\n        max=c  \nprint(max)
