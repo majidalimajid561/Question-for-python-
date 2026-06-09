@@ -17,6 +17,7 @@ def reverse(list):
         print(i, end=" ")
 
 # Reverse a String
+
 def reversStr(s):
     j=len(s)-1
     ans=""
