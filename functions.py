@@ -86,7 +86,6 @@ def sumofNum(num):
         return sum
     else:
         print("Invalid input")
-
 # Return Max From List
 def  maxInList(list):
     if len(list)==0: 
