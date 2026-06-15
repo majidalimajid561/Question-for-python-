@@ -1,5 +1,4 @@
 # Print a Given List
-# this is teh enf 
 def sum(list):
     for i in list:
         print(i)
